@@ -1,0 +1,56 @@
+body{
+    background-color: #6d3740;
+    color : whitesmoke;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 2px 2px 4px rgb(73, 70, 70);
+}
+
+.btn{
+    cursor: pointer;
+}
+
+h1 {
+    color:#ffffff;
+    transition: color 0.5s ease-in-out;
+}
+
+.clock {
+    font-size: 50px;
+}
+
+.clicked {
+    color: violet;
+}
+
+.greetings {
+    font-size: 30px;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2000px;
+    height: 1286px;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
